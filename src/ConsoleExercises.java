@@ -27,5 +27,6 @@ public class ConsoleExercises {
         float width = Integer.parseInt(scanner.nextLine());
         System.out.println("the Area is " + (length * width));
         System.out.println("The perimeter is " + ((length  * 2) + (width * 2)));
+
     }
 }
