@@ -4,8 +4,8 @@ public class ConsoleExercises {
 
     public static void main(String[] args){
 
-        double pi = 3.14159;
-        System.out.println("The Value of Pi is " + pi);
+//        double pi = 3.14159;
+//        System.out.printf("The Value of Pi is  %.2f.", pi );
 
         Scanner scanner = new Scanner(System.in);
 //        System.out.println("enter a number");
@@ -22,11 +22,22 @@ public class ConsoleExercises {
 //                String word1 = scanner.nextLine();
 //                System.out.println(word1);
 
-        System.out.println("give me the length and width your room");
-        float length = Integer.parseInt(scanner.nextLine());
-        float width = Integer.parseInt(scanner.nextLine());
-        System.out.println("the Area is " + (length * width));
-        System.out.println("The perimeter is " + ((length  * 2) + (width * 2)));
+//        System.out.println("give me the length and width your room");
+//        float length = Float.parseFloat(scanner.nextLine());
+//        float width = Float.parseFloat(scanner.nextLine());
+//
+//        System.out.println("the Area is " + (length * width));
+//        System.out.println("The perimeter is " + ((length  * 2) + (width * 2)));
+//
 
+
+        System.out.println("give me the length and width your room");
+        float length = Float.parseFloat(scanner.nextLine());
+        float width = Float.parseFloat(scanner.nextLine());
+
+        System.out.println("the Area is " + (length * width));
+        System.out.println("The perimeter is " + (length + width) * 2);
+
+        scanner.useDelimiter("/n");
     }
 }
