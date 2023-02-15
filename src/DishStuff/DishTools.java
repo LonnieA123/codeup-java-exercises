@@ -4,6 +4,7 @@ class DishTools{
 
     public static int average = 1300;
 
+
     public static String shoutDishName(Dish dish){
         return String.format("THIS IS THE DISH %S", dish.getName());
 
