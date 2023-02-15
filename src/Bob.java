@@ -4,7 +4,6 @@ public class Bob {
 
     public static void main(String[] args){
         System.out.println("hello");
-        do{
             Scanner scan = new Scanner(System.in);
             String response = scan.next();
 
@@ -14,7 +13,7 @@ public class Bob {
             }else if(response.endsWith("?")){
                 System.out.println("ya i guess");
 
-            }else if(response.isBlank()){
+            }else if(response.equals("")){
                 System.out.println("fine be that WAY");
 
             }else if(response.equals("bye")){
@@ -23,12 +22,6 @@ public class Bob {
             }else{
                 System.out.println("whatEVER");
             }
-
-        }while (true);
-
-
-
-
 
 
     }
