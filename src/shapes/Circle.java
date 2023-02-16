@@ -1,5 +1,10 @@
 package shapes;
+
+import java.util.Scanner;
+
 public class Circle {
+
+    private final Scanner scanner = new Scanner(System.in);
 
     private int radius;
 
@@ -8,8 +13,10 @@ public class Circle {
     public void setRadius(int radius){this.radius = radius;}
 
 
-    public Circle(int radius){
-        this.radius = radius;
+    public Circle(){
+        System.out.println("enter a number");
+        this.radius = scanner.nextInt();
+
     }
 
     public double getCircumference(){

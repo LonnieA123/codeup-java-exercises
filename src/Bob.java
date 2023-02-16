@@ -1,4 +1,7 @@
 import java.util.Scanner;
+public class Bob {
+
+
 
 //public class Bob {
 
@@ -43,3 +46,4 @@ import java.util.Scanner;
 //
 //    }
 //}
+}
