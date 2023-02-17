@@ -1,5 +1,9 @@
 package movies;
 
+import util.Input;
+
+import java.util.Scanner;
+
 public class Movie {
 
     //var
@@ -27,6 +31,8 @@ public class Movie {
         this.name = name;
         this.category = category;
     }
+
+
 
 }
 
