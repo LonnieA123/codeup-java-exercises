@@ -1,7 +1,5 @@
 package people;
 
-
-
 public class PeopleTest {
     public static void main(String[] args) {
         People lonnie = new People("lonnie", "arellano",18,1500,true);

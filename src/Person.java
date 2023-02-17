@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Person {
 
     private String name;
@@ -14,15 +16,19 @@ public class Person {
         this.name = name;
     }
 
-
+    public static Person[] addPerson(Person[] peopleArray, Person toAdd){
+        Person[] newPeople = Arrays.copyOf(peopleArray,peopleArray.length + 1);
+        newPeople[newPeople.length - 1] = toAdd;
+        return newPeople;
+    }
 
 
     public static void main(String[] args) {
         Person person1 = new Person("John");
 
-
-
     }
+
+
 
 
 

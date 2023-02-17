@@ -1,4 +1,4 @@
-public class StringExersize {
+public class StringExercise {
 
 
 

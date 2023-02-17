@@ -1,5 +1,5 @@
 package people;
-class PeopleTools {
+public class PeopleTools {
 
     public static String rURich(People people){
         int rich = 10000;

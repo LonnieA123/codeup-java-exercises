@@ -10,17 +10,28 @@ public class ArraysExercises {
                 new Person("bro")
         };
 
+        for(Person person : people){
+            System.out.println(person.getName());
+        }
+
+
         Person self = new Person("self");
-        System.out.println(addPerson(people, self));
+        people = Person.addPerson(people, self);
+
+
+        for(Person person : people){
+            System.out.println(person.getName());
+        }
 
 
     }
 
-    public static Person[] addPerson(Person[] peopleArray, Person toAdd){
-        Person[] newPeople = Arrays.copyOf(peopleArray,peopleArray.length + 1);
-        newPeople[newPeople.length - 1] = toAdd;
-        return newPeople;
-    }
+
+//    public static Person[] addPerson(Person[] peopleArray, Person toAdd){
+//        Person[] newPeople = Arrays.copyOf(peopleArray,peopleArray.length + 1);
+//        newPeople[newPeople.length - 1] = toAdd;
+//        return newPeople;
+//    }
 
 
 
