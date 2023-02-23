@@ -7,20 +7,9 @@ public class InputTest {
     public static void main(String[] args) {
 
         Input input = new Input();
+        input.getInt(10,300);
+       input.getDouble();
 
-        System.out.println(input.getString());
-
-        System.out.println(input.yesNo());
-
-        System.out.println(input.getInt(25,100));
-
-        System.out.println(input.getInt());
-
-        System.out.println(input.getDouble(25,100));
-
-        System.out.println(input.getDouble());
-
-        System.out.println(input.getString());
     }
 
 
