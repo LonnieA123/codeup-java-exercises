@@ -1,25 +1,23 @@
-import java.util.Arrays;
-
 public class ArraysExercises {
 
     public static void main(String[] args) {
 
-        Person[] people = {
-                new Person("james"),
-                new Person("lonnie"),
-                new Person("bro")
+        Person1[] people = {
+                new Person1("james"),
+                new Person1("lonnie"),
+                new Person1("bro")
         };
 
-        for(Person person : people){
+        for(Person1 person : people){
             System.out.println(person.getName());
         }
 
 
-        Person self = new Person("self");
-        people = Person.addPerson(people, self);
+        Person1 self = new Person1("self");
+        people = Person1.addPerson(people, self);
 
 
-        for(Person person : people){
+        for(Person1 person : people){
             System.out.println(person.getName());
         }
 
